@@ -8,6 +8,7 @@ jobs:
   Pylint_check:
     runs-on: ubuntu-latest
     steps:
+      - name: pylint_check
         uses: actions/checkout@v3
       - name: Install dependencies
         run: |
